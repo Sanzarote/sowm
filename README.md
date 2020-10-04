@@ -1,6 +1,6 @@
 # sowm (*~~Simple~~ Shitty Opinionated Window Manager*)
 
-<a href="https://user-images.githubusercontent.com/6799467/66687576-9747c200-ec72-11e9-947d-5b96753eab03.jpg"><img src="https://user-images.githubusercontent.com/6799467/66687576-9747c200-ec72-11e9-947d-5b96753eab03.jpg" width="43%" align="right"></a>
+<a href="https://raw.githubusercontent.com/Sanzarote/dotfiles/master/scr/sea.png"><img src="https://raw.githubusercontent.com/Sanzarote/dotfiles/master/scr/sea.png" width="43%" align="right"></a>
 
 An itsy bitsy floating window manager (*220~ sloc!*).
 
@@ -12,7 +12,7 @@ An itsy bitsy floating window manager (*220~ sloc!*).
 - Rounded corners (*[through patch](https://github.com/dylanaraps/sowm/pull/58)*)
 - Titlebars (*[through patch](https://github.com/dylanaraps/sowm/pull/57)*)
 
-<a href="https://user-images.githubusercontent.com/6799467/66687814-8cd9f800-ec73-11e9-97b8-6ae77876bd1b.jpg"><img src="https://user-images.githubusercontent.com/6799467/66687814-8cd9f800-ec73-11e9-97b8-6ae77876bd1b.jpg" width="43%" align="right"></a>
+<a href="https://raw.githubusercontent.com/Sanzarote/dotfiles/master/scr/1337.png"><img src="https://raw.githubusercontent.com/Sanzarote/dotfiles/master/scr/1337.png" width="43%" align="right"></a>
 
 - Alt-Tab window focusing.
 - All windows die on exit.
@@ -48,13 +48,12 @@ Patches available here: https://github.com/dylanaraps/sowm/pulls
 | ------------------------ | ---------------- | -------------- |
 | `MOD4` + `Return`        | terminal         | `st`           |
 | `MOD4` + `d`             | dmenu            | `dmenu_run`    |
-| `MOD4` + `p`             | scrot            | `scr`          |
-| `MOD4` + `w`             | wallpaper cycler | `bud`          |
-| `XF86_AudioLowerVolume`  | volume down      | `amixer`       |
-| `XF86_AudioRaiseVolume`  | volume up        | `amixer`       |
-| `XF86_AudioMute`         | volume toggle    | `amixer`       |
-| `XF86_MonBrightnessUp`   | brightness up    | `bri`          |
-| `XF86_MonBrightnessDown` | brightness down  | `bri`          |
+| `MOD4` + `p`             | scrot            | `scrot`        |
+| `XF86_AudioLowerVolume`  | volume down      | `pamixer`      |
+| `XF86_AudioRaiseVolume`  | volume up        | `pamixer`      |
+| `XF86_AudioMute`         | volume toggle    | `pamixer`      |
+| `XF86_MonBrightnessUp`   | brightness up    | `xbacklight`   |
+| `XF86_MonBrightnessDown` | brightness down  | `xbacklight`   |
 
 
 ## Dependencies
@@ -96,3 +95,4 @@ Type=Application
 - [possum-wm](https://github.com/duckinator/possum-wm)
 - [swm](https://github.com/dcat/swm)
 - [tinywm](http://incise.org/tinywm.html)
+https://raw.githubusercontent.com/Sanzarote/dotfiles/master/scr/1337.png
